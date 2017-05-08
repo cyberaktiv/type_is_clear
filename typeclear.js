@@ -57,5 +57,3 @@ var Type = function()
 		return typeof obj === "string";
 	};
 };
-
-var type = new Type();
