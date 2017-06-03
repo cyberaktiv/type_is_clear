@@ -28,9 +28,9 @@ type.isInteger(1234.56);  // false
 type.isInteger(NaN);	  // false
 type.isInteger(Infinity); // false
 
-type.isDouble(1234.56);	 // true
-type.isDouble(1234);	 // false
-type.isDouble(NaN);		 // false
+type.isDouble(1234.56);  // true
+type.isDouble(1234);     // false
+type.isDouble(NaN);      // false
 type.isDouble(Infinity); // false
 
 type.isNumber(1234); 	 // true
